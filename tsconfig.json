@@ -10,8 +10,7 @@
         "moduleResolution": "node",
         "isolatedModules": true,
         "declaration": true,
-        "emitDeclarationOnly": true,
-        "outDir": "lib/types",
+        "outDir": "lib", // Emit compiled JS to `lib`
         "noEmit": false
     },
     "include": [
@@ -20,5 +19,5 @@
     "exclude": [
         "node_modules",
         "lib"
-    ],
+    ]
 }

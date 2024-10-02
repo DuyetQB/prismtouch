@@ -1,13 +1,12 @@
 {
   "name": "prismtouch",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "main": "lib/index.js",
-  "types": "lib/types/index.d.ts",
+  "types": "lib/index.d.ts",
   "description": "A best performance UI library for React Native",
   "author": "DuyetQB",
   "scripts": {
-    "build": "babel src --out-dir lib --extensions \".ts,.tsx\"",
-    "types": "tsc --emitDeclarationOnly"
+    "build": "tsc"
   },
   "keywords": [
     "components",

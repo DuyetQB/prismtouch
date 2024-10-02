@@ -10,6 +10,7 @@ To install the library, use npm or yarn:
 npm install prismtouch
 
 ```
+or using Yarn
 
 ```bash
 yarn add prismtouch
@@ -19,12 +20,15 @@ yarn add prismtouch
 ## Usage
 
 ```bash
+ import { Text } from 'react-native';
  import { Button } from 'prismtouch';
-
 
     <Button
 onPress={() => alert('Button pressed')}>
+
+    <Text>
           Click me
+          </Text>
     </Button>
 
 
